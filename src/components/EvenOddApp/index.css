@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'roboto';
+}
+.desc {
+  color: #334155;
+  font-size: 25px;
+  font-family: 'roboto';
+}
+.btn {
+  height: 30px;
+  width: 90px;
+  border: none;
+  background-color: #ffffff;
+}
+.note {
+  font-size: 20px;
+  font-family: 'roboto';
+}
